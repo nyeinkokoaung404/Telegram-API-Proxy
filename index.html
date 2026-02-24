@@ -36,7 +36,7 @@
             <p>Replace the standard Telegram API address with the following URL:</p>
             
             <div class="api-container">
-                <div class="api-url" id="apiUrl">https://telegram-api-proxy-anonymous.pages.dev/api/bot</div>
+                <div class="api-url" id="apiUrl">https://telegram-api-proxy-6ou.pages.dev/api/bot</div>
                 <button class="copy-button" onclick="copyToClipboard()">Copy URL</button>
             </div>
         </section>
@@ -56,7 +56,7 @@ let botToken = "YOUR_BOT_TOKEN"
 let ChatID = "YOUR_CHAT_ID"
 let txtmessage = "Hello from Secure API"
 
-var url = 'https://telegram-api-proxy-anonymous.pages.dev/api/bot' + botToken + 
+var url = 'https://telegram-api-proxy-6ou.pages.dev/api/bot' + botToken + 
           '/sendMessage?text=' + txtmessage + 
           '&chat_id=' + ChatID + 
           "&parse_mode=Markdown&disable_web_page_preview=True";
@@ -79,7 +79,7 @@ import requests
 def send_telegram_msg(msg):
     token = "YOUR_BOT_TOKEN"
     chat_id = "YOUR_CHAT_ID"
-    url = "https://telegram-api-proxy-anonymous.pages.dev/api/bot" + token + "/sendMessage"
+    url = "https://telegram-api-proxy-6ou.pages.dev/api/bot" + token + "/sendMessage"
     
     payload = {
         "text": msg,
