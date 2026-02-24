@@ -32,7 +32,7 @@ let botToken = "YOUR_BOT_TOKEN";
 let ChatID = "YOUR_CHAT_ID";
 let message = "Hello World";
 
-var url = 'https://telegram-api-proxy-anonymous.pages.dev/api/bot' + botToken + 
+var url = 'https://telegram-api-proxy-6ou.pages.dev/api/bot' + botToken + 
           '/sendMessage?text=' + message + 
           '&chat_id=' + ChatID;
 
