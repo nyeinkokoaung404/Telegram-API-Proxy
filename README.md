@@ -21,7 +21,7 @@ This project provides a secure and reliable proxy for the Telegram Bot API that 
 Replace the standard Telegram API URL (`https://api.telegram.org/bot`) with:
 
 ```
-https://telegram-api-proxy-anonymous.pages.dev/api/bot
+https://telegram-api-proxy-6ou.pages.dev/api/bot
 ```
 
 ### Example in JavaScript
@@ -48,7 +48,7 @@ import requests
 def send_telegram_message(message):
     token = "YOUR_BOT_TOKEN"
     chat_id = "YOUR_CHAT_ID"
-    url = f"https://telegram-api-proxy-anonymous.pages.dev/api/bot{token}/sendMessage"
+    url = f"https://telegram-api-proxy-6ou.pages.dev/api/bot{token}/sendMessage"
     
     payload = {
         "text": message,
@@ -63,7 +63,7 @@ def send_telegram_message(message):
 
 You can access the web interface at:
 
-[https://telegram-api-proxy-anonymous.pages.dev/](https://telegram-api-proxy-anonymous.pages.dev/)
+[https://telegram-api-proxy-6ou.pages.dev/](https://telegram-api-proxy-6ou.pages.dev/)
 
 ## License
 
@@ -71,6 +71,6 @@ This project is licensed under the [GPL-3.0](LICENSE) License.
 
 ## Author
 
-**Anonymous**
+**404\2.0 🇲🇲**
 
-* Telegram: [@BXAMbot](https://t.me/BXAMbot)
+* Telegram: [@nkka404](https://t.me/nkka404)
